@@ -1,5 +1,6 @@
 const STORAGE_NAME = "tipper-config";
-const CONFIG_URL = "../../json/config.json";
+const REPO_NAME = "tipper";
+const CONFIG_URL = `/${REPO_NAME}/assets/json/config.json`;
 
 function readLocalStorage() {
 	const raw = localStorage.getItem(STORAGE_NAME);
