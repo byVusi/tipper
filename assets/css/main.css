@@ -29,7 +29,6 @@
 html {
 	font-family: Nunito, system-ui, sans-serif;
 	font-size: 16px;
-	color: hsl(259);
 }
 
 body,
@@ -45,9 +44,10 @@ main {
 
 body {
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
 	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0;
 	height: 100vh;
 	color: var(--black);
 }
