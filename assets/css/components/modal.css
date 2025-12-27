@@ -1,0 +1,78 @@
+.modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-dialog {
+	position: absolute;
+	top: 1rem;
+	left: 50%;
+	transform: translate(-50%);
+	width: calc(100% - 2rem);
+	max-width: 600px;
+	height: fit-content;
+	background-color: white;
+	margin: auto;
+	border-radius: 1rem;
+}
+
+.modal-content,
+.modal-header {
+	display: flex;
+}
+
+.modal-content {
+	flex-direction: column;
+}
+
+.modal-content {
+	padding: 1rem;
+}
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.modal-title {
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+.moday-body,
+.modal-footer {
+	padding: 1rem 0;
+}
+
+.modal-body {
+	height: fit-content;
+}
+
+.settings-section:not(.settings-section:last-of-type) {
+	margin-bottom: 3rem;
+}
+
+.save-btn {
+	background-color: var(--primary);
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 1rem;
+}
+
+.save-btn:hover {
+	background-color: var(--primary-600);
+}
+
+.save-btn:focus {
+	outline: 2px solid var(--primary-300);
+	outline-offset: 3px;
+}
+
+.save-btn:active {
+	background-color: var(--primary-700);
+	transform: scale(0.99);
+}

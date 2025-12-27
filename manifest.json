@@ -1,0 +1,16 @@
+{
+	"name": "Tipper",
+	"short_name": "Tipper",
+	"description": "Tipper - An easy to use tip calculator",
+	"scope": "/tipper/",
+	"start_url": "/tipper/",
+	"dir": "ltr",
+	"lang": "en-ZA",
+	"prefer_related_applications": false,
+	"categories": [],
+	"orientation": "portrait",
+	"display": "standalone",
+	"background_color": "",
+	"theme_color": "",
+	"icons": []
+}

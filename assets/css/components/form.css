@@ -1,0 +1,37 @@
+select {
+	font: inherit;
+	border: none;
+}
+
+select:focus {
+	outline-color: var(--primary);
+}
+
+input {
+	max-width: 100px;
+	font: inherit;
+	text-align: right;
+	border: none;
+	border-bottom: 2px solid var(--gray);
+}
+
+input:focus {
+	outline: none;
+	border-bottom-color: var(--primary);
+	background-color: var(--primary-100);
+}
+
+.settings-form > div:last-of-type {
+	width: 100%;
+	margin-top: 1.5rem;
+	text-align: right;
+}
+.settings-form button[type="submit"] {
+	display: inline-block;
+}
+
+.settings-form-field {
+	display: flex;
+	justify-content: space-between;
+	margin: 0.5rem 0 1rem;
+}
