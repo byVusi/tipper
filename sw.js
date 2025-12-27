@@ -4,7 +4,7 @@
  * and serves cached assets when offline.
  */
 const REPO_NAME = "tipper";
-export const BASE_PATH = `/${REPO_NAME}`;
+const BASE_PATH = `/${REPO_NAME}`;
 const CACHE_NAME = `${REPO_NAME}-cache-v1`;
 
 /**

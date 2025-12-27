@@ -1,4 +1,5 @@
-import { BASE_PATH } from "../../sw.js";
+const REPO_NAME = "tipper";
+const BASE_PATH = `/${REPO_NAME}`;
 
 if ("serviceWorker" in navigator) {
 	navigator.serviceWorker
