@@ -144,6 +144,7 @@ button {
 	height: 24px;
 	border-radius: 50%;
 	background-color: var(--primary-200);
+	stroke: var(--primary);
 }
 
 .numpad {
