@@ -28,22 +28,26 @@
 		{
 			"src": "assets/screenshots/screenshots_1.png",
 			"sizes": "720x1280",
-			"type": "image/png"
+			"type": "image/png",
+			"form_factor": "narrow"
 		},
 		{
 			"src": "assets/screenshots/screenshots_2.png",
 			"sizes": "720x1280",
-			"type": "image/png"
+			"type": "image/png",
+			"form_factor": "narrow"
 		},
 		{
 			"src": "assets/screenshots/screenshots_3.png",
 			"sizes": "720x1280",
-			"type": "image/png"
+			"type": "image/png",
+			"form_factor": "narrow"
 		},
 		{
 			"src": "assets/screenshots/screenshots_4.png",
 			"sizes": "720x1280",
-			"type": "image/png"
+			"type": "image/png",
+			"form_factor": "narrow"
 		}
 	]
 }
