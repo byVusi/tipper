@@ -174,7 +174,8 @@ button {
 	color: inherit;
 }
 
-button:active {
+button:active,
+button:focus {
 	background-color: none;
 	border: none;
 	outline:none;
