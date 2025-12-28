@@ -89,12 +89,12 @@ svg {
 
 .pre-calculation > div:last-of-type,
 .container {
-	padding: 1rem;
 	margin-bottom: 1rem;
 	color: var(--primary);
 }
 
 .container {
+padding: 1rem;
 	background-color: var(--primary-100);
 	border-radius: 1rem;
 }
