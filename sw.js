@@ -5,7 +5,7 @@
  */
 const REPO_NAME = "tipper";
 const BASE_PATH = `/${REPO_NAME}`;
-const CACHE_NAME = `${REPO_NAME}-cache-v1`;
+const CACHE_NAME = `${REPO_NAME}-cache-v1.0`;
 
 /**
  * List of static assets to cache during the install event.
