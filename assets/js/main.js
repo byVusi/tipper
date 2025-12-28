@@ -1,9 +1,6 @@
-const REPO_NAME = "tipper";
-const BASE_PATH = `/${REPO_NAME}`;
-
 if ("serviceWorker" in navigator) {
 	navigator.serviceWorker
-		.register(`${BASE_PATH}/sw.js`)
+		.register("/sw.js")
 		.then(() => console.log("✅ Service Worker registered"))
 		.catch((err) => console.error("❌ Service Worker failed:", err));
 }
