@@ -157,15 +157,15 @@ button {
 	text-align: center;
 }
 
-.numpad button:hover {
-	background-color: var(--lightgray);
-}
-
 .numpad button {
 	padding: 1rem;
 	font-size: 1.5rem;
 	border-bottom: 1px solid var(--lightgray);
 	color: inherit;
+}
+
+.numpad button:active {
+	background-color: var(--lightgray);
 }
 
 .numpad button:nth-of-type(1) {
