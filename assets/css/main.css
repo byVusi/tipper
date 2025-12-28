@@ -116,6 +116,16 @@ h6 {
 	color: var(--gray);
 }
 
+button,
+.counter p {
+	-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Safari */
+  -khtml-user-select: none;    /* Konqueror HTML */
+  -moz-user-select: none;      /* Old versions of Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Standard syntax */
+	}
+
 button {
 	display: flex;
 	align-items: center;
@@ -123,12 +133,6 @@ button {
 	border: none;
 	outline: none;
 	background-color: transparent;
-	 -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Safari */
-  -khtml-user-select: none;    /* Konqueror HTML */
-  -moz-user-select: none;      /* Old versions of Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Standard syntax */
 }
 
 .value {
@@ -168,6 +172,12 @@ button {
 	font-size: 1.5rem;
 	border-bottom: 1px solid var(--lightgray);
 	color: inherit;
+}
+
+button:active {
+	background-color: none;
+	border: none;
+	outline:none;
 }
 
 .numpad button:active {
